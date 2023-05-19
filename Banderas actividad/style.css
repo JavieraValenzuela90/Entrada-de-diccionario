@@ -1,0 +1,26 @@
+.container {
+    width: 950px;
+    background-color: white;
+    margin: 0px ;
+    display: block;
+}
+.izquierda {
+    height: 500px;
+    width: 300px;
+    background-color: rgb(38, 0, 255);
+    margin-top: 10px;
+    display: inline-block;
+}
+.medio {
+    height: 500px;
+    width: 300px;
+    background-color:white;
+    margin-top: 10px;
+    display: inline-block;
+}
+.derecha {
+    height: 500px;
+    width: 300px;
+    background-color:red;
+    margin-top: 10px;display: inline-block;
+}
