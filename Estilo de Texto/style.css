@@ -1,0 +1,26 @@
+h1 {
+    background-color: tomato;
+    color:blueviolet;
+    text-decoration: underline;
+    font-style: italic
+}
+
+#white {
+    color: white;
+    
+}
+
+h2 {
+    background-color: aquamarine;
+    color: gray;
+    text-align: center;
+    text-decoration: line-through;
+    font-style: italic
+}
+
+h3 {
+    background-color: blue;
+    color: yellow;
+    text-align: end;
+    text-decoration: underline
+}

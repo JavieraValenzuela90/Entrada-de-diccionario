@@ -1,0 +1,25 @@
+.botonsearch {
+    border-color: rgb(41, 212, 206);
+    border-radius: 300px;
+    background-color: white;
+    color: rgb(41, 212, 206);
+    font-size: 15px;
+    width: 140px;
+    height: 30px;
+}
+.botonmas {
+    border-color: rgb(41, 212, 206);
+    border-radius: 50%;
+    background-color:  rgb(41, 212, 206);
+    color: white;
+    font-size: 23px;
+    width: 37px;
+    height: 37px;
+}
+.botoncreateaccount {
+    background-color: rgb(101, 167, 246);
+    color: white;
+    padding: 5px 25px 5px 25px;
+    font-size: 15px;
+    box-shadow: 4px 4px 1px 1px rgb(0, 0, 4);
+}
