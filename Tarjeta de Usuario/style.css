@@ -1,0 +1,29 @@
+.container {
+    border: solid 2px silver;
+}
+
+header {
+    background-color: aqua;
+    height: 80px;
+}
+.userImage {
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    border-radius: 50%;
+    border: solid 2px gray
+}
+main {
+    padding: 20px;
+    margin-top: 10px;
+}
+.ubicationIcon {
+    height: 20px;
+}
+.gearIcon {
+    height: 20px;
+}
+.profileEdit {
+    margin-top: 20px;
+}
