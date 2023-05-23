@@ -1,7 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .nav {
-    background-color: black;
-    width: 200px;
-    height: 20px;
+    background-color: rgb(79, 75, 75);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+.edit-nav {
+    margin-left: 300px;
+    display: flex;
+    font-size: 15px;
+}
+a {
+    margin-left: 16px;
+    color: rgba(192, 192, 192, 0.788);
+}
+.button-signout {
+    border: black solid 3px;
+    background-color: rgb(66, 190, 190);
+    color: white;
+    margin-left: 10px;
+    box-shadow: 4px 4px black;
+}
+.active {
+    font-weight: bolder;
+    color: white
 }
