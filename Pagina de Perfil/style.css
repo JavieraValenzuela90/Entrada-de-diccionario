@@ -114,13 +114,14 @@ header {
 }
 .requests-box {
     border: silver 2px solid;
-    margin-right: 30px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
 }
 .connections-box {
     border: silver 2px solid;
-    margin-right: 30px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
+    margin-top: 26px;
 }
