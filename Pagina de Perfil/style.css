@@ -125,3 +125,11 @@ header {
     flex-direction: column;
     margin-top: 26px;
 }
+.inside-connections-box1 {
+    display: flex;
+    flex-direction: row;
+}
+.inside-connections-box2 {
+    display: flex;
+    flex-direction: row;
+}
