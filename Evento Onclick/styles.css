@@ -35,14 +35,18 @@ body {
 .box1 {
     border: black 2px solid;
     margin-bottom: 16px;
-    padding: 8px;
+    padding: 16px;
     display:flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
 }
 .box2 {
-    background-color: blueviolet;
     border: black 2px solid;
+    margin-bottom: 16px;
+    padding: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
 }
 .button2 {
     border: solid 2px black;
@@ -51,10 +55,21 @@ body {
     padding: 4px 16px 4px 16px;
     box-shadow: 3px 3px 1px 1px rgb(0, 0, 4);   
 }
+.text1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text2 {
+    margin-left: 40px;
+}
 .section2 {
     flex:3;
 }
 .box3 {
-    background-color: brown;
     border: black 2px solid;
+    padding: 16px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
