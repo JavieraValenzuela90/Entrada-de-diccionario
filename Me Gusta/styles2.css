@@ -1,0 +1,47 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+.header {
+    background-color: rgb(8, 7, 7);
+    color: rgb(242, 239, 239);
+    height: 20px;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+}
+.title {
+    display:flex;
+    justify-content: center;
+}
+.main {
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+}
+.user-section {
+    border: 2px solid black;
+    display:flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+.user-icon {
+    height: 50px;
+    width: 50px;
+}
+.like-section {
+    border: 2px solid black;
+    padding:10px;
+    flex: 5;
+}
+.box {
+    border: 2px solid black;
+    padding:10px;
+}
+.top-box-section {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
