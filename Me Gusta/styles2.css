@@ -59,7 +59,7 @@ body {
 .bottom-box-section {
     margin-top:20px;
 }
-#likeButton {
+.likeButton {
     border: solid 3px black;
     background-color: rgb(255, 217, 0);
     color: black;
