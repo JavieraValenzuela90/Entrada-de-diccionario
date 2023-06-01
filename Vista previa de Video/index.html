@@ -9,34 +9,55 @@
 </head>
 <body>
     <header class="header">
-        <h2>
+        <h1>
             VideoLab
-        </h2>
+        </h1>
         <input class="search-box" type="search" value="Search...">
         <button class="sign-button" onclick="buttonState(this)">Log In</button>
     </header>
     <main class="container">
         <section class="section1">
             <div class="box1">
-                box1 video
+                <video src="./video/pexels-nathan-j-hilton-16560417-3840x2160-25fps.mp4" height="500" muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
             </div>
             <div class="box2">
                 <div class="box2-a">
                     <div>
-                        Example Video Title
+                        <h4>Example Video Title</h4>
+                        <p>1.3K views | June 18, 2021</p>
                     </div>
-                    <div class="btn-suscribe">
-                        <button>Suscribe</button>
-                    </div>
+                    <button class="btn-suscribe">Suscribe</button>
                 </div>
                 <div class="box2-b">
-                    box2-b
+                    <img class="user-icon" src="./assets/user.png">
+                    <h4 class="special-text">Example User Name</h4>
                 </div>
             </div>
         </section>
         <section class="section2">
-            <div class="box3">
-                box3
+            <h4 class="box3-a">
+                Up Next
+            </h4>
+            <div class="box3-b">
+                <div class="aside-video-box">
+                    <img class="placeholder-icon" src="./assets/video-placeholder.png" alt="placeholder">
+                    <h4 class="text-aside-video">Not a RickRoll</h4>
+                </div>
+                <div class="aside-video-box">
+                    <img class="placeholder-icon" src="./assets/video-placeholder.png" alt="placeholder">
+                    <h4 class="text-aside-video">10 Facts About EF's Cat</h4>
+                </div>
+                <div class="aside-video-box"> 
+                    <img class="placeholder-icon" src="./assets/video-placeholder.png" alt="placeholder">
+                    <h4 class="text-aside-video">5 Cosplay Tips</h4>
+                </div>
+                <div class="aside-video-box">
+                    <img class="placeholder-icon" src="./assets/video-placeholder.png" alt="placeholder">
+                    <h4 class="text-aside-video">Boy Battles Dinobot in Thunderdome</h4>
+                </div>
             </div>
         </section>
     </main>
+    <script src="./main.js"></script>
+</body>
+</html>
